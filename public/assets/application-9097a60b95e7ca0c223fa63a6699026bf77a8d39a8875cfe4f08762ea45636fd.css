@@ -1,0 +1,60 @@
+/* line 5, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+.carousel-inner {
+  text-align: center;
+  background-color: #ffffff;
+}
+/* line 8, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+.carousel-inner img {
+  margin: 0 auto;
+}
+
+/* line 13, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+.bg-1 {
+  background-color: #ffffff;
+  color: #555555;
+}
+
+/* line 18, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+.bg-2 {
+  background-color: #ffffff;
+}
+
+/* line 22, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+.bg-3 {
+  background-color: #00cc99;
+  color: #ffffff;
+}
+
+/* line 27, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+footer {
+  background-color: #ff99ff;
+  color: #000000;
+  padding: 100px;
+}
+
+/* line 32, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+footer a {
+  color: #000000;
+}
+
+/* line 35, /home/slick/slickdevelopment/TabiSlick/app/assets/stylesheets/pages.scss */
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
