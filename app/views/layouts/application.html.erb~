@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TabiSlick</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=41952324249";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<nav class="nav navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/home">Tabi Slick</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class='container-fluid'>
+<%= yield %>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src='vendor/assets/javascripts/bootstrap.js'></script>
+</div>
+
+<footer class='text-center'>
+	<a class='up-arrow' href='/home' data-toggle='tooltip' title='To Top'>
+	<span class='glyphicon glyphicon-chevron-up'></span>
+	</a><br><br?
+	  <div class='row>
+	  <div class='col-md-12'>
+	    <div class='col-md-6 col-sm-4 col-xs-6'>
+	      <h4>INFORMATION</h4>
+	      <p><a href='/about'>About</a></p>
+	    </div>
+
+	    <div class='col-md-offset-1 col-sm-2 col-xs-6'>
+	      <h4>LINKS</h4>
+		<ul class='list-unstyled'>
+		  <li><a href='/home'>Home</a></li>
+		  <li><a href='/novels'>Novels</a></li>
+		  <li><a href='/contact'>Contact</a></li>
+		</ul>
+	    </div>
+
+	<div class='clearfix visible-xs'></div>
+	</div>
+</footer>
+<script>
+	$(document).ready(function(){
+	// Initialize Tooltip
+	$('[data-toggle="tooltip"]').tooltip();
+})
+</script>
+</body>
+</html>

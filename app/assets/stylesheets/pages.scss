@@ -1,0 +1,38 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.carousel-inner {
+	text-align: center;
+	background-color: #ffffff;
+	img {
+	margin: 0 auto;
+}
+}
+
+.bg-1 {
+	background-color: #ffffff;
+	color: #555555;
+}
+
+.bg-2 {
+	background-color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #00cc99;
+	color: #ffffff;
+}
+
+footer {
+	background-color: #ff99ff;
+	color: #000000;
+	padding: 100px;
+}
+footer a {
+	color: #000000;
+}
+footer a:hover {
+	color: #777;
+	text-decoration: none;
+}
