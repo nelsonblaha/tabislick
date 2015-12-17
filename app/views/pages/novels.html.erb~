@@ -1,0 +1,8 @@
+<div class="container-fluid title">
+	<h4>Tompkin's School Trilogy</h4>
+	<h5>For The Extraordinarily Talented</h5>
+	<h5>Book I</h5>
+	<%= image_tag('TompkinsSchool.jpg', class: 'img-circle', style: 'height: 200px; width: 125px', display: 'left') %>
+</div>
+<div class="description"><h5>Izara Torvik thought her life was over the moment that her father sent her and her twin brother to a boarding school in the middle of nowhere Oklahoma. She soon discovers that the school is not as ordinary as she thought and finds herself thrown into a battle facing her inner demons that only have one desire...the desire to kill.</h5>
+</div>

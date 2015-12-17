@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.body {
+	background-color: #bfbfbf;
+}
+
 .carousel-inner {
 	text-align: center;
 	background-color: #ffffff;
@@ -11,29 +15,35 @@
 }
 
 .bg-1 {
-	background-color: #ffffff;
-	color: #555555;
+	background-color: #bfbfbf;	
+	color: #006666;
 }
 
 .bg-2 {
-	background-color: #ffffff;
-	text-aling: left;
+	background-color: #006666;
 }
 
 .bg-3 {
-	background-color: #00cc99;
+	background-color: #666666;
 	color: #ffffff;
+}
+.title {
+	text-align: center;	
+}
+
+.description {
+	text-align: left;
 }
 
 footer {
-	background-color: #ff99ff;
-	color: #000000;
+	background-color: #006666;
+	color: #ffffff;
 	padding: 100px;
 }
 footer a {
-	color: #000000;
+	color: #ffffff;
 }
 footer a:hover {
-	color: #777;
+	color: #ffffff;
 	text-decoration: none;
 }

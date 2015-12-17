@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
+  get 'contact_form/new'
+
+  get 'contact_form/create'
+
   resources :pages
+  resources :contact_forms
 
   get '/home' => 'pages#home'
   get '/about' => 'pages#about'
