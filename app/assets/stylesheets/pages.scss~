@@ -21,6 +21,7 @@
 
 .bg-2 {
 	background-color: #006666;
+	color: #ffffff;
 }
 
 .bg-3 {
